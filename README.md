@@ -47,3 +47,23 @@ The full tests will typically overrun the 8Mb limit often allowed
 to a PHP process. A workaround is to run the tests on the command
 with a custom php.ini file or with the switch -dmemory_limit=-1
 if you do not have access to your server version.
+
+
+Installation
+------------
+
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+
+Either run
+
+```
+php composer.phar require --prefer-dist garyjl/simpletest "*"
+```
+
+or add
+
+```
+"garyjl/simpletest": "*"
+```
+
+to the require section of your `composer.json` file.

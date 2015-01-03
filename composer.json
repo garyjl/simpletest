@@ -1,0 +1,20 @@
+{
+	"name": "garyjl/simpletest",
+	"description": "Unit testing, mock objects and web testing framework for PHP built around test cases.",
+	"license": "LGPL-2.0+",
+	"authors": [
+        {
+            "homepage": "http://simpletest.org/"
+        },
+        {
+            "name": "G Liu",
+            "email": "garyjl21@gmail.com"
+        }
+    ],
+	"require": {
+		"php": ">=5.0.5"
+	},
+	"autoload": {
+		"classmap": ["lib/"]
+	}
+}
